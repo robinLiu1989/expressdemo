@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <style>
+      .root{
+        margin-top: 20px;
+        margin-left: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="root" >
+      注册
+      <br>
+      <form action="/main" method="post">
+        手机号：<input type="text" name="mobile">
+        <br>
+        密码：<input type="text" name="pwd">
+        <br>
+        昵称：<input type="text" name="nickname">
+        <input type="submit" value="注册">
+      </form>
+
+
+      <!--<form action="/main" method="get">-->
+        <!--手机号：<input type="text" name="mobile">-->
+        <!--<br>-->
+        <!--密码：<input type="text" name="pwd">-->
+        <!--<br>-->
+        <!--昵称：<input type="text" name="nickname">-->
+        <!--<input type="submit" value="注册">-->
+      <!--</form>-->
+
+
+    </div>
+
+
+  </body>
+</html>
